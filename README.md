@@ -2,13 +2,13 @@
 ## LAB - 06
 ## **Deployment Test**
 ## **Author: Tasnim Wheebi**
-[PR LINK]()
+[PR LINK](https://github.com/Tasnimwheebi/basic-auth/pull/2)
 
 
-[Heroku APP]()
+[Heroku APP](https://tasnim-basic-auth.herokuapp.com/)
 
 
-[Report Test]()
+[Report Test](https://github.com/Tasnimwheebi/basic-auth/actions)
 
 ## **Setup**
 * .env requirements
