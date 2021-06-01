@@ -16,13 +16,13 @@ const cors = require('cors');
 const app = express();
 
 const route = require('./auth/router.js');
+
+
 //////////////////////////////////////////
 ///// error handler or bad request handler
 //////////////////////////////////////////
 const notFoundHndler = require('./middleware/404.js');
 const errorHandler = require('./middleware/500');
-
-
 
 
 
@@ -49,10 +49,6 @@ app.get('/',(req,res)=>{
   res.send('Welcome to Home Page');
 });
 
-// app.use('/api/v1/food', foodRoute);
-// app.use('/api/v1/clothes', clothesRout);
-
-
 
 //////////////////////////////////////////
 ///// error or bad request middlewares ///
@@ -61,7 +57,5 @@ app.use('*', notFoundHndler);
 app.use(errorHandler);
 
 
-//////////////////////////////////////////////
-// export the server and start of listening//
-////////////////////////////////////////////
+
 module.exports = app;
